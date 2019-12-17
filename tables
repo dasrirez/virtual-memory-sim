@@ -1,0 +1,370 @@
+Commands used:
+./sim -f ./tracefiles/simpleloop.tr  -s 10000
+./sim -f ./tracefiles/blocked -s 10000
+./sim -f ./tracefiles/matmul -s 10000
+
+simpleloop:
+-----------
+	Memory size: 50
+	--------------------------------------------
+		fifo:
+			Hit count: 5064
+			Miss count: 2632
+			Clean evictions: 38
+			Dirty evictions: 2544
+			Total references : 7696
+			Hit rate: 65.8004
+			Miss rate: 34.1996
+
+		clock:
+			Hit count: 5113
+			Miss count: 2583
+			Clean evictions: 36
+			Dirty evictions: 2497
+			Total references : 7696
+			Hit rate: 66.4371
+			Miss rate: 33.5629
+
+		lru:
+			Hit count: 5116
+			Miss count: 2580
+			Clean evictions: 35
+			Dirty evictions: 2495
+			Total references : 7696
+			Hit rate: 66.4761
+			Miss rate: 33.5239
+
+		opt:
+			TODO
+
+	Memory size: 100
+	--------------------------------------------
+		fifo:
+			Hit count: 5092
+			Miss count: 2604
+			Clean evictions: 34
+			Dirty evictions: 2470
+			Total references : 7696
+			Hit rate: 66.1642
+			Miss rate: 33.8358
+		
+		clock:
+			Hit count: 5116
+			Miss count: 2580
+			Clean evictions: 34
+			Dirty evictions: 2446
+			Total references : 7696
+			Hit rate: 66.4761
+			Miss rate: 33.5239
+
+		lru:
+			Hit count: 5117
+			Miss count: 2579
+			Clean evictions: 34
+			Dirty evictions: 2445
+			Total references : 7696
+			Hit rate: 66.4891
+			Miss rate: 33.5109
+
+		opt:
+			TODO
+
+	Memory size: 150
+	--------------------------------------------
+		fifo:
+			Hit count: 5100
+			Miss count: 2596
+			Clean evictions: 34
+			Dirty evictions: 2412
+			Total references : 7696
+			Hit rate: 66.2682
+			Miss rate: 33.7318
+
+		clock:
+			Hit count: 5116
+			Miss count: 2580
+			Clean evictions: 34
+			Dirty evictions: 2396
+			Total references : 7696
+			Hit rate: 66.4761
+			Miss rate: 33.5239
+
+		lru:
+			Hit count: 5117
+			Miss count: 2579
+			Clean evictions: 34
+			Dirty evictions: 2395
+			Total references : 7696
+			Hit rate: 66.4891
+			Miss rate: 33.510
+
+		opt:
+			TODO
+
+	Memory size: 200
+	--------------------------------------------
+		fifo:
+			Hit count: 5105
+			Miss count: 2591
+			Clean evictions: 34
+			Dirty evictions: 2357
+			Total references : 7696
+			Hit rate: 66.3332
+			Miss rate: 33.6668
+
+		clock:
+			Hit count: 5116
+			Miss count: 2580
+			Clean evictions: 34
+			Dirty evictions: 2346
+			Total references : 7696
+			Hit rate: 66.4761
+			Miss rate: 33.5239
+
+		lru:
+			Hit count: 5117
+			Miss count: 2579
+			Clean evictions: 34
+			Dirty evictions: 2345
+			Total references : 7696
+			Hit rate: 66.4891
+			Miss rate: 33.5109
+
+		opt:
+			TODO
+
+blocked:
+--------
+	Memory size: 50
+	--------------------------------------------
+		fifo:
+			Hit count: 4794
+			Miss count: 66
+			Clean evictions: 6
+			Dirty evictions: 10
+			Total references : 4860
+			Hit rate: 98.6420
+			Miss rate: 1.3580
+
+		clock:
+			Hit count: 4799
+			Miss count: 61
+			Clean evictions: 5
+			Dirty evictions: 6
+			Total references : 4860
+			Hit rate: 98.7449
+			Miss rate: 1.2551
+
+		lru:
+			Hit count: 4804
+			Miss count: 56
+			Clean evictions: 5
+			Dirty evictions: 1
+			Total references : 4860
+			Hit rate: 98.8477
+			Miss rate: 1.1523
+
+	Memory size: 100
+	--------------------------------------------
+		fifo:
+			Hit count: 4805
+			Miss count: 55
+			Clean evictions: 0
+			Dirty evictions: 0
+			Total references : 4860
+			Hit rate: 98.8683
+			Miss rate: 1.1317
+
+		clock:
+			Hit count: 4805
+			Miss count: 55
+			Clean evictions: 0
+			Dirty evictions: 0
+			Total references : 4860
+			Hit rate: 98.8683
+			Miss rate: 1.1317
+
+		lru:
+			Hit count: 4805
+			Miss count: 55
+			Clean evictions: 0
+			Dirty evictions: 0
+			Total references : 4860
+			Hit rate: 98.8683
+			Miss rate: 1.1317
+
+	Memory size: 150
+	--------------------------------------------
+		fifo:
+			Hit count: 4805
+			Miss count: 55
+			Clean evictions: 0
+			Dirty evictions: 0
+			Total references : 4860
+			Hit rate: 98.8683
+			Miss rate: 1.1317
+
+		clock:
+			Hit count: 4805
+			Miss count: 55
+			Clean evictions: 0
+			Dirty evictions: 0
+			Total references : 4860
+			Hit rate: 98.8683
+			Miss rate: 1.1317
+
+		lru:
+			Hit count: 4805
+			Miss count: 55
+			Clean evictions: 0
+			Dirty evictions: 0
+			Total references : 4860
+			Hit rate: 98.8683
+			Miss rate: 1.1317
+
+	Memory size: 200
+	--------------------------------------------
+		fifo:
+			Hit count: 4805
+			Miss count: 55
+			Clean evictions: 0
+			Dirty evictions: 0
+			Total references : 4860
+			Hit rate: 98.8683
+			Miss rate: 1.1317
+
+		clock:
+			Hit count: 4805
+			Miss count: 55
+			Clean evictions: 0
+			Dirty evictions: 0
+			Total references : 4860
+			Hit rate: 98.8683
+			Miss rate: 1.1317
+
+		lru:
+			Hit count: 4805
+			Miss count: 55
+			Clean evictions: 0
+			Dirty evictions: 0
+			Total references : 4860
+			Hit rate: 98.8683
+			Miss rate: 1.1317
+
+matmul:
+-------
+	Memory size: 50
+	--------------------------------------------
+		fifo:
+			Hit count: 4727
+			Miss count: 61
+			Clean evictions: 4
+			Dirty evictions: 7
+			Total references : 4788
+			Hit rate: 98.7260
+			Miss rate: 1.2740
+		
+		clock:
+			Hit count: 4729
+			Miss count: 59
+			Clean evictions: 4
+			Dirty evictions: 5
+			Total references : 4788
+			Hit rate: 98.7678
+			Miss rate: 1.2322
+		
+		lru:
+			Hit count: 4733
+			Miss count: 55
+			Clean evictions: 4
+			Dirty evictions: 1
+			Total references : 4788
+			Hit rate: 98.8513
+			Miss rate: 1.1487
+
+	Memory size: 100
+	--------------------------------------------
+		fifo:
+			Hit count: 4734
+			Miss count: 54
+			Clean evictions: 0
+			Dirty evictions: 0
+			Total references : 4788
+			Hit rate: 98.8722
+			Miss rate: 1.1278
+
+		clock:
+			Hit count: 4734
+			Miss count: 54
+			Clean evictions: 0
+			Dirty evictions: 0
+			Total references : 4788
+			Hit rate: 98.8722
+			Miss rate: 1.1278
+		
+		lru:
+			Hit count: 4734
+			Miss count: 54
+			Clean evictions: 0
+			Dirty evictions: 0
+			Total references : 4788
+			Hit rate: 98.8722
+			Miss rate: 1.1278
+
+	Memory size: 150
+	--------------------------------------------
+		fifo:
+			Hit count: 4734
+			Miss count: 54
+			Clean evictions: 0
+			Dirty evictions: 0
+			Total references : 4788
+			Hit rate: 98.8722
+			Miss rate: 1.1278
+		
+		clock:
+			Hit count: 4734
+			Miss count: 54
+			Clean evictions: 0
+			Dirty evictions: 0
+			Total references : 4788
+			Hit rate: 98.8722
+			Miss rate: 1.1278
+		
+		lru:
+			Hit count: 4734
+			Miss count: 54
+			Clean evictions: 0
+			Dirty evictions: 0
+			Total references : 4788
+			Hit rate: 98.8722
+			Miss rate: 1.1278
+
+	Memory size: 200
+	--------------------------------------------
+		fifo:
+			Hit count: 4734
+			Miss count: 54
+			Clean evictions: 0
+			Dirty evictions: 0
+			Total references : 4788
+			Hit rate: 98.8722
+			Miss rate: 1.1278
+		
+		clock:
+			Hit count: 4734
+			Miss count: 54
+			Clean evictions: 0
+			Dirty evictions: 0
+			Total references : 4788
+			Hit rate: 98.8722
+			Miss rate: 1.1278
+		
+		lru:
+			Hit count: 4734
+			Miss count: 54
+			Clean evictions: 0
+			Dirty evictions: 0
+			Total references : 4788
+			Hit rate: 98.8722
+			Miss rate: 1.1278
